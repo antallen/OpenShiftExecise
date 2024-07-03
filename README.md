@@ -1,2 +1,5 @@
-# OpenShiftExecise
-OpenShiftExecise
+# 練習題專用
+
++ DO180
++ DO280
+  + 練習題
