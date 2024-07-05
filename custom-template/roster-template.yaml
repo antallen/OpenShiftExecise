@@ -91,7 +91,7 @@ objects:
       app: ${APPNAME}
     name: ${APPNAME}
   spec:
-    host: ${APPNAME}-${NAMESPACE}.apps.ocp4.example.com
+    host: ${APPNAME}-${NAMESPACE}.apps-crc.testing
     port:
       targetPort: 9090
     to:
@@ -102,7 +102,7 @@ objects:
 parameters:
 - description: The image used for the pod deployed by this template.
   name: IMAGE
-  value: registry.ocp4.example.com:8443/redhattraining/do280-roster:v1
+  value: quay.io/redhattraining/do280-roster:v1
 - description: The name used for the resources
   name: APPNAME
   value: do280-roster
