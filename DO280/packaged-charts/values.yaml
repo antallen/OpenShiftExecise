@@ -1,0 +1,6 @@
+image:
+  repository: docker.io/etherpad
+  name: etherpad
+  tag: latest
+route:
+  host: development-etherpad.apps-crc.testing
