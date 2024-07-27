@@ -14,7 +14,6 @@ spec:
       labels:
         app: configmap-reloader
     spec:
-      serviceAccountName: configmap-reloader-sa
       containers:
         - image: "quay.io/redhattraining/do280-stakater-reloader:v0.0.125"
           imagePullPolicy: IfNotPresent
